@@ -1,0 +1,22 @@
+#content {
+  font-size: 18px;
+  border: 1px solid #000;
+  width: 450px;
+  height: 250px;
+  padding: 20px;
+  background: #DFEFFF;
+}
+#menu > button {
+  padding: 10px 30px;
+}
+#btn-marker {
+  position: absolute;
+  border: 1px solid #000;
+  border-bottom: none;
+  width: 0;
+  height: 10px;
+  top: 67px;
+  display: none;
+  -webkit-transition: left 0.5s ease-in, width 0.5s linear 0;
+  transition: left 0.5s ease-in, width 0.5s linear 0;
+}
