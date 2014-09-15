@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Grimoire
 
 A collection of useful scripts & spells that make the internet a better place
