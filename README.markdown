@@ -7,6 +7,7 @@ A collection of useful scripts & spells that make the internet a better place
   - javascript
     - button_marker
     - digital_clock
+    - text_counter
   - php
     - loop.php
     - roman-numerals.php

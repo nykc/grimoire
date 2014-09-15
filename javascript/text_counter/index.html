@@ -1,0 +1,17 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Textarea Counter & Limiting</title>
+  </head>
+  <body>
+    <form>
+      <textarea name="txtArea" rows="6" style="width:340px;"
+        onKeyDown="textCounter(this.form.txtArea, this.form.countDisplay);"
+        onKeyUp="textCounter(this.form.txtArea, this.form.countDisplay);">
+      </textarea>
+      <br />
+      <input readonly type="text" name="countDisplay" size="3" maxlength="3" value="250"> Characters Remaining
+    </form>
+    <script type="text/javascript" src="text-counter.js"></script>
+  </body>
+</html>
