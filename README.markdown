@@ -5,18 +5,11 @@ A collection of useful scripts, snippets and spells that make the internet a bet
 ## Directory Structure
 
   - javascript
-    - ajax_post
-      - Use Ajax to Post to PHP File XMLHttpRequest Object Return Data
-    - button_marker
-      - Animated menu button marker
-    - digital_clock
-      - Javascript driven digital clock
-    - text_counter
-      - Counts the characters in a form field.
-    - typing_animate
-      - Animated text typing script
+    - *ajax_post*: Using ajax to post to PHP file (XMLHttpRequest Object Return Data)
+    - *button_marker*: Animated menu button marker
+    - *digital_clock*: Javascript driven digital clock
+    - *text_counter*: Counts the characters in a form text field
+    - *typing_animate*: Animated text typing script
   - php
-    - loop.php
-      - the wordpress loop
-    - roman-numerals.php
-      - convert to Roman numeral
+    - *wordpress_loops*: WordPress loop files
+    - *roman_numerals*: Convert to Roman Numerals
