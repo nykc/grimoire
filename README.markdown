@@ -7,6 +7,7 @@ A collection of useful scripts, snippets and spells that make the internet a bet
   - javascript
     - **ajax_post**: Using ajax to post to PHP file (XMLHttpRequest Object Return Data)
     - **button_marker**: Animated menu button marker
+    - **countdown_timer**: Countdown till event timer
     - **digital_clock**: Javascript driven digital clock
     - **text_counter**: Counts the characters in a form text field
     - **typing_animate**: Animated text typing script
