@@ -15,3 +15,5 @@ A collection of useful scripts, snippets and spells that make the internet a bet
   - php
     - **wordpress_loops**: WordPress loop files
     - **roman_numerals**: Convert to Roman Numerals
+  - sass
+    - **breakpoints**: media queries mixin

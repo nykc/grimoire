@@ -1,0 +1,65 @@
+/*
+ * Mixin name: Breakpoints.scss
+ * Desc: Common breakpoints used for responsive
+ * Use: Just call @include breakpoint--name { content; }
+ * Author: Derek Ackley
+ * Version: 0.1.0
+ * License: NONE
+ *
+ */
+
+// Declare values for basic media queries or use your own...
+$mobile: 20em;
+$mobile--large: 28.75em;
+$tablet--small: 40em;
+$tablet--large: 48em;
+$laptop: 80em;
+$desktop: 92em;
+
+// mobile phones in portrait
+@mixin mobile {
+  @media screen and (min-width: $mobile) {
+    @content;
+  }
+}
+
+// mobile phones in landscape and phablets
+@mixin mobile--large {
+  @media screen and (min-width: $mobile--large) {
+    @content;
+  }
+}
+
+// small-medium sized tablets
+@mixin tablet--small {
+  @media screen and (min-width: $tablet--small) {
+    @content;
+  }
+}
+
+// medium-larger tablets / smaller desktop
+@mixin tablet--large {
+  @media screen and (min-width: $tablet--large) {
+    @content;
+  }
+}
+
+// laptop screen to standard browsers
+@mixin laptop {
+  @media screen and (min-width: $laptop) {
+    @content;
+  }
+}
+
+// larger desktop monitors -- starting around 1472px
+@mixin desktop {
+  @media screen and (min-width: $desktop) {
+    @content;
+  }
+}
+
+/** Container Silent Class **/
+%container {
+  max-width: 96em;
+  margin: 0 auto;
+}
